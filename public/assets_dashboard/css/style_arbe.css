@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Cairo-SemiBold';
+    src: url('../fonts/Cairo-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Cairo-SemiBold';
+    src: url('../fonts/Cairo-SemiBold.ttf');
+}
+
+* {
+    font-family: 'Cairo-SemiBold';
+    font-weight: bold;
+}
+.form-check:not(.form-switch) .form-check-input[type="checkbox"], .form-check:not(.form-switch) .form-check-input[type="radio"]{
+    position: absolute;
+}
+.form-check-label{margin-right: 3rem;}
+.nav-tabs{
+    border: none !important;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #dddd;
+  outline: none;
+  margin: 10px 0px;
+}
+
+.input-group input{
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  border: 1px solid #dddd;
+  border-radius: 40px;
+  outline: none;
+  margin: 10px 0px;
+}
+
+.navbar-vertical.navbar-expand-xs.fixed-start {
+    right: 0;
+  }
+
+.button_save {
+  width: 216px;
+  float: left;
+}
+
+.nav-link-text{
+    margin-right: 13px;
+}
+
+select#cars {
+  margin: 10px 0px;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #dddd;
+  margin: 10px 0px;
+  outline: none;
+}
+
+option {padding: 20px 0px;margin: 10px 0px;}
+
+input#vehicle1 {
+  width: 29px;
+  margin: 10px 0px;
+}
+
+label {
+  font-size: 15px;
+}
+
+.search .button_save .btn {
+  margin: 0rem !important;
+  margin-bottom: 1rem !important;
+  background: linear-gradient(278deg, #3EC4CD 0%, #2A6F74 100%);
+}
+.fixed-plugin.show .card {
+    left: 0 !important;
+  }
+  .fixed-plugin .card {
+    left: -360px !important;
+    right: auto !important;
+  }
+.grid-1 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+}
+
+.card-header h6{
+    align-self: center;
+}
+
+.grid-2 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0px;
+}
+
+.col.search.search_rpt {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.btn-rpt{
+    width: 168px;
+    float: right;
+}
+
+
+ul.navbar-nav.margine-nav {
+    margin-bottom: auto;
+}
+
+.notification_dom{
+    gap: 30px;
+}
+
+.form-switch .form-check-input:after {
+    transform: translateX(1px);}
+
+.form-switch .form-check-input:checked:after {
+    transform: translateX(-15px) !important;
+}
+
+@media (min-width: 1200px){
+    .sidenav.fixed-start~.main-content {
+        margin-right: 17.125rem;
+    }
+    }
+
+@media screen and (max-width: 1199.98px){
+    .notification_dom{
+        gap: 0px;
+    }
+    .g-sidenav-show:not(.rtl) .sidenav {
+        transform: translateX(17.125rem);
+      }
+      .g-sidenav-show.g-sidenav-pinned .sidenav {
+        transform: translateX(0);
+      }
+}
+
+@media screen and (max-width: 552px){
+    .button_save a {
+        font-size: 0.54rem;
+    }
+    .button_save {
+        width: 100%;
+        float: right;
+    }
+}
+
+
+
+
